@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Floresta Viva: O Agrinho Contra o Desmatamento</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        /* Custom font for a clean look */
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+        /* Ensure images are responsive and have rounded corners */
+        img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 0.5rem; /* rounded-lg */
+        }
+    </style>
+</head>
+<body class="bg-gray-100 text-gray-800">
+    <header class="bg-green-700 text-white p-4 shadow-md">
+        <div class="container mx-auto flex flex-col md:flex-row justify-between items-center">
+            <h1 class="text-3xl font-bold mb-2 md:mb-0">Floresta Viva: O Agrinho Contra o Desmatamento</h1>
+            <nav>
+                <ul class="flex space-x-4">
+                    <li><a href="#introducao" class="hover:text-green-200 transition duration-300">Início</a></li>
+                    <li><a href="#causas" class="hover:text-green-200 transition duration-300">Causas</a></li>
+                    <li><a href="#consequencias" class="hover:text-green-200 transition duration-300">Consequências</a></li>
+                    <li><a href="#solucoes" class="hover:text-green-200 transition duration-300">Soluções</a></li>
+                    <li><a href="#agrinho" class="hover:text-green-200 transition duration-300">Projeto Agrinho</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="introducao" class="relative bg-cover bg-center h-96 flex items-center justify-center text-white"
+        style="background-image: url('https://placehold.co/1200x600/8B4513/FFFFFF?text=Área+Desmatada');">
+        <div class="absolute inset-0 bg-black opacity-60 rounded-lg"></div>
+        <div class="container mx-auto text-center z-10 p-4">
+            <h2 class="text-5xl font-extrabold mb-4 drop-shadow-lg">A Urgência de Proteger Nossas Florestas</h2>
+            <p class="text-xl leading-relaxed max-w-2xl mx-auto drop-shadow-md">
+                O desmatamento é um dos maiores desafios ambientais do nosso tempo, ameaçando a biodiversidade, o clima e o bem-estar das comunidades.
+                Descubra como o Projeto Agrinho atua na conscientização e na busca por um futuro mais verde.
+            </p>
+        </div>
+    </section>
+
+    <main class="container mx-auto p-6 my-8 bg-white rounded-lg shadow-xl">
+
+        <section id="causas" class="mb-12">
+            <h3 class="text-4xl font-bold text-green-700 mb-6 text-center">Causas do Desmatamento</h3>
+            <div class="mb-8 text-center">
+                <img src="https://placehold.co/800x400/4CAF50/FFFFFF?text=Causas+do+Desmatamento" alt="Imagem ilustrativa das causas do desmatamento" class="rounded-lg shadow-lg mx-auto">
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <div class="bg-gray-50 p-6 rounded-lg shadow-md hover:shadow-lg transition duration-300">
+                    <h4 class="text-2xl font-semibold text-gray-900 mb-3">Expansão Agrícola e Pecuária</h4>
+                    <p class="text-gray-700">A demanda por terras para plantio de commodities (soja, milho) e criação de gado é a principal força motriz do desmatamento, especialmente na Amazônia e no Cerrado.</p>
+                </div>
+                <div class="bg-gray-50 p-6 rounded-lg shadow-md hover:shadow-lg transition duration-300">
+                    <h4 class="text-2xl font-semibold text-gray-900 mb-3">Exploração Madeireira Ilegal</h4>
+                    <p class="text-gray-700">A extração não regulamentada de madeira, muitas vezes associada a grilagem de terras, contribui significativamente para a perda florestal.</p>
+                </div>
+                <div class="bg-gray-50 p-6 rounded-lg shadow-md hover:shadow-lg transition duration-300">
+                    <h4 class="text-2xl font-semibold text-gray-900 mb-3">Mineração e Infraestrutura</h4>
+                    <p class="text-gray-700">Projetos de mineração, construção de estradas, hidrelétricas e outras infraestruturas abrem novas frentes de desmatamento e facilitam o acesso a áreas antes preservadas.</p>
+                </div>
+                <div class="bg-gray-50 p-6 rounded-lg shadow-md hover:shadow-lg transition duration-300">
+                    <h4 class="text-2xl font-semibold text-gray-900 mb-3">Incêndios Florestais</h4>
+                    <p class="text-gray-700">Muitos incêndios são causados por ações humanas, intencionais ou acidentais, para limpeza de terreno ou atividades agrícolas, e se espalham de forma incontrolável.</p>
+                </div>
+                <div class="bg-gray-50 p-6 rounded-lg shadow-md hover:shadow-lg transition duration-300">
+                    <h4 class="text-2xl font-semibold text-gray-900 mb-3">Grilagem de Terras</h4>
+                    <p class="text-gray-700">A ocupação ilegal de terras públicas para fins de especulação imobiliária ou atividades agropecuárias é uma prática comum que impulsiona o desmatamento.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="consequencias" class="mb-12">
+            <h3 class="text-4xl font-bold text-green-700 mb-6 text-center">Consequências Devastadoras</h3>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
+                <div>
+                    <img src="https://placehold.co/600x400/DC2626/FFFFFF?text=Animal+Ameaçado" alt="Imagem ilustrativa de biodiversidade ameaçada" class="rounded-lg shadow-lg">
+                </div>
+                <div>
+                    <ul class="list-disc pl-5 space-y-3 text-lg text-gray-700">
+                        <li><strong class="text-red-600">Perda de Biodiversidade:</strong> Extinção de espécies de plantas e animais, muitas delas ainda não catalogadas.</li>
+                        <li><strong class="text-red-600">Alterações Climáticas:</strong> Liberação de grandes quantidades de carbono na atmosfera, intensificando o efeito estufa e as mudanças climáticas.</li>
+                        <li><strong class="text-red-600">Desertificação e Erosão do Solo:</strong> Degradação do solo, tornando-o improdutivo e propenso à erosão.</li>
+                        <li><strong class="text-red-600">Escassez Hídrica:</strong> Afeta o ciclo da água, reduzindo a disponibilidade de chuvas e comprometendo rios e nascentes.</li>
+                        <li><strong class="text-red-600">Impactos Sociais:</strong> Deslocamento de comunidades tradicionais, conflitos por terra e perda de recursos naturais essenciais.</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section id="solucoes" class="mb-12">
+            <h3 class="text-4xl font-bold text-green-700 mb-6 text-center">Soluções e Ações para um Futuro Sustentável</h3>
+            <div class="mb-8 text-center">
+                <img src="https://placehold.co/800x400/2196F3/FFFFFF?text=Soluções+Sustentáveis" alt="Imagem ilustrativa de soluções sustentáveis" class="rounded-lg shadow-lg mx-auto">
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <div class="bg-blue-50 p-6 rounded-lg shadow-md hover:shadow-lg transition duration-300">
+                    <h4 class="text-2xl font-semibold text-blue-800 mb-3">Fiscalização e Combate à Ilegalidade</h4>
+                    <p class="text-gray-700">Fortalecer órgãos de fiscalização e punir crimes ambientais são passos cruciais para conter o desmatamento ilegal.</p>
+                </div>
+                <div class="bg-blue-50 p-6 rounded-lg shadow-md hover:shadow-lg transition duration-300">
+                    <h4 class="text-2xl font-semibold text-blue-800 mb-3">Incentivo à Agricultura Sustentável</h4>
+                    <p class="text-gray-700">Promover práticas agrícolas que não dependam do desmatamento, como a agroecologia e a recuperação de áreas degradadas.</p>
+                </div>
+                <div class="bg-blue-50 p-6 rounded-lg shadow-md hover:shadow-lg transition duration-300">
+                    <h4 class="text-2xl font-semibold text-blue-800 mb-3">Reflorestamento e Restauração</h4>
+                    <p class="text-gray-700">Investir em projetos de reflorestamento e restauração de ecossistemas degradados para recuperar a cobertura florestal.</p>
+                </div>
+                <div class="bg-blue-50 p-6 rounded-lg shadow-md hover:shadow-lg transition duration-300">
+                    <h4 class="text-2xl font-semibold text-blue-800 mb-3">Educação Ambiental</h4>
+                    <p class="text-gray-700">Conscientizar a população sobre a importância das florestas e os impactos do desmatamento, promovendo uma cultura de sustentabilidade.</p>
+                </div>
+                <div class="bg-blue-50 p-6 rounded-lg shadow-md hover:shadow-lg transition duration-300">
+                    <h4 class="text-2xl font-semibold text-blue-800 mb-3">Consumo Consciente</h4>
+                    <p class="text-gray-700">Apoiar empresas e produtos que comprovadamente não contribuem para o desmatamento e reduzir o consumo de produtos com grande pegada ecológica.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="agrinho" class="mb-12 bg-green-50 p-8 rounded-lg shadow-inner">
+            <h3 class="text-4xl font-bold text-green-700 mb-6 text-center">O Papel do Projeto Agrinho</h3>
+            <div class="flex flex-col md:flex-row items-center gap-8">
+                <div class="md:w-1/3">
+                    <img src="https://placehold.co/400x300/6B46C1/FFFFFF?text=Projeto+Agrinho+Logo" alt="Logo do Projeto Agrinho" class="rounded-lg shadow-lg">
+                </div>
+                <div class="md:w-2/3 text-lg text-gray-700">
+                    <p class="mb-4">O <strong class="text-green-800">Projeto Agrinho</strong> é uma iniciativa muito legal do Sistema FAEP/SENAR-PR! Ele ajuda a gente a aprender sobre o meio ambiente e como cuidar do nosso planeta, principalmente nas escolas do campo.</p>
+                    <p class="mb-4">Com o Agrinho, a gente se torna mais consciente sobre o desmatamento, a importância da água, como ter alimentos saudáveis e proteger a natureza. É como se a gente virasse um super-herói do meio ambiente!</p>
+                    <p>Eles usam jogos, atividades divertidas e até concursos para nos ensinar. Assim, o Projeto Agrinho nos inspira a fazer a diferença na nossa comunidade e construir um futuro mais verde e cheio de vida para todo mundo!</p>
+                    <p class="mt-4 text-center">Saiba mais em: <a href="https://www.sistemafaep.org.br/agrinho/" target="_blank" class="text-blue-600 hover:underline">Site Oficial do Projeto Agrinho</a></p>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="bg-gray-800 text-white p-6 mt-8 rounded-t-lg shadow-inner">
+        <div class="container mx-auto text-center">
+            <p>&copy; 2025 Site sobre Desmatamento. Desenvolvido com o tema do Projeto Agrinho.</p>
+            <p class="mt-2">Para mais informações, entre em contato: <a href="mailto:contato@exemplo.com" class="text-blue-400 hover:underline">contato@exemplo.com</a></p>
+        </div>
+    </footer>
+</body>
+</html>
+
