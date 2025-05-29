@@ -1,0 +1,12 @@
+/* Custom font for a clean look */
+body {
+    font-family: 'Inter', sans-serif;
+}
+
+/* Ensure images are responsive and have rounded corners */
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 0.5rem; /* rounded-lg */
+}
+
